@@ -16,7 +16,7 @@ We'll be primarily using the following AWS services to develop our application:
 
 The architecture of our application will resemble the following:
 
-![Serverless REST API Architecture](architecture_diagram.png)
+![Serverless REST API Architecture](.github/architecture.png)
 
 We'll create an API for a blogging application where multiple authors can post blogs on various topics. Our API will expose endpoints to perform the following operations:
 
