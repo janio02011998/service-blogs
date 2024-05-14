@@ -4,7 +4,7 @@ import { DynamoDBDocumentClient, PutCommand } from '@aws-sdk/lib-dynamodb';
 const client = new DynamoDBClient({ region: process.env.AWS_REGION });
 const docClient = DynamoDBDocumentClient.from(client);
 
-export const handler = async () => {
+const handler = async () => {
   try {
     const input = {
       TableName: 'blogs-dev',
@@ -22,3 +22,5 @@ export const handler = async () => {
     return { error: err };
   }
 };
+
+export default handler;
