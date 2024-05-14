@@ -9,7 +9,7 @@ const handler = async () => {
     const input = {
       TableName: 'blogs-dev',
       Item: {
-        blog_id: 11,
+        blog_id: '11',
         blog_author: 'Neil harrison',
         blog_title: 'Microservice',
       },

@@ -9,7 +9,7 @@ const handler = async () => {
     const command = new DeleteCommand({
       TableName: 'blogs-dev',
       Key: {
-        blog_id: 11,
+        blog_id: '11',
       },
     });
     docClient.send(command);
