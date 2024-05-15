@@ -11,7 +11,7 @@ jobs: #Workflow run is made up of one or more jobs
     steps:
       #Using versioned actions
       - uses: actions/checkout@v4 # --> Reference a specific version
-      - uses: actions/setup-node@v # --> To Setup the Server With Node Env
+      - uses: actions/setup-node@v4 # --> To Setup the Server With Node Env
         with:
           node-version: '20' #--> Specify the Version of the Node
       - name: Configure AWS Credentials
